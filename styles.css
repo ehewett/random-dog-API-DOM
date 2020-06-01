@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.dog-num {
+  border: 2px black solid;
+}
+
+.button {
+  background-color: aqua;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.image-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images {
+  width: 200px;
+}
