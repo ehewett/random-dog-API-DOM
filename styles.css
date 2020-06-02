@@ -25,7 +25,7 @@ body {
   display: none;
 }
 
-.image-results {
+.img-results {
   display: flex;
   flex-wrap: wrap;
 }

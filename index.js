@@ -28,7 +28,7 @@ function getDogImage(userNum) {
 
 function displayImages(responseJson) {
   console.log(responseJson);
-  $(".image-results").html("");
+
   responseJson.message.forEach((retrievedImg) => {
     $(".image-results").append(`<img src="${retrievedImg}" class="images">`);
   });
